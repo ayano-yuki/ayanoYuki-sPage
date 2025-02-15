@@ -19,3 +19,5 @@ lang: jp
   - テーマ：Fuwari
 - Versel
 
+# プログラム
+::github{repo="ayano-yuki/ayanoYuki-sPage"}
