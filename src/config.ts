@@ -28,7 +28,8 @@ export const siteConfig: SiteConfig = {
     enable: true,           // Display the table of contents on the right side of the post
     depth: 2                // Maximum heading depth to show in the table, from 1 to 3
   },
-  favicon: [    // Leave this array empty to use the default favicon
+  favicon: 
+  [    // Leave this array empty to use the default favicon
     // {
     //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
     //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
@@ -42,35 +43,35 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
-    {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
-      external: true,                               // Show an external link icon and will open in a new tab
-    },
+    // {
+    //   name: 'GitHub',
+    //   url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
+    //   external: true,                               // Show an external link icon and will open in a new tab
+    // },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  name: 'Ayano',
+  bio: '何ができるんだろう...?',
   links: [
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: 'https://x.com/__ayanoYuki__',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/ayano-yuki',
+    },
+    {
+      name: 'Linktree',
+      icon: 'fa-regular:id-card',
+      url: 'https://linktr.ee/ayanoYuki',
     },
   ],
 }
