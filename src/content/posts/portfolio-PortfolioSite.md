@@ -10,7 +10,7 @@ lang: jp
 ---
 # 概要
 - 学生エンジニアとしての7年間の活動をまとめたポートフォリオサイト
-- Zennに詳細を纏めています。 
+- Zennに詳細を纏めています
   - URL: https://zenn.dev/yuki_ayano/articles/customizing-fuwari-portfolio
 
 
